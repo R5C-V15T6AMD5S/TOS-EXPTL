@@ -1,4 +1,4 @@
-# [TempleOS](http://templeos.org/)-Experimental
+# [TempleOS](http://templeos.org/) 
 
 ![rice_colorscheme](./Screenshots/rice_kanagawa.png)
 
@@ -6,7 +6,8 @@
 
 ## Copyright & Inspiration
 
-All the Copyrights for the scripts and theme management made by [Alexey Kutepov](https://gitlab.com/tsoding/aoc-2021/-/tree/master?ref_type=heads)
+All the Copyrights for the scripts and theme management were made by [Alexey Kutepov](https://gitlab.com/tsoding/aoc-2021/-/tree/master?ref_type=heads). 
+You can find his playlist describing the journey of coding in TempleOS [here](https://www.youtube.com/playlist?list=PLpM-Dvs8t0VZNUvTX1pqfpI_tMkhWCLYL). 
 
 ## Quick Start
 
