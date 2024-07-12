@@ -1,4 +1,4 @@
-# [TempleOS](http://templeos.org/) 
+# [TempleOS](http://templeos.org/) - Place for learning Holy C
 
 ![rice_colorscheme](./Screenshots/rice_kanagawa.png)
 
