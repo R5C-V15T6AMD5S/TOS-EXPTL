@@ -1,5 +1,7 @@
 # [TempleOS](http://templeos.org/)-Experimental
 
+![rice_colorscheme](./Screenshots/rice_kanagawa.png)
+
 *For how to get the same color theme see [./Home/Theme.HC](./Home/Theme.HC)*
 
 ## Copyright & Inspiration
