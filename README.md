@@ -59,3 +59,8 @@ $ ./sync.sh temple ./TOS.img
 ```console
 $ ./sync.sh host ./TOS.img
 ```
+
+## Place to pay respects
+
+R.I.P. Terrence Andrew Davis, aka `King Terry`
+![king_terry](./Screenshots/ktq.png)
