@@ -1,5 +1,5 @@
 // Stolenc From https://github.com/sainnhe/everforest
-public CBGR48 gr_palette_everforest[COLORS_NUM]={
+public CBGR48 gr_palette_kanagawa[COLORS_NUM]={
   0xd3d3c6c6aaaa, // Black
   0x7f7fbbbbb3b3, // Blue
   0xa7a7c0c08080, // Green
@@ -18,9 +18,9 @@ public CBGR48 gr_palette_everforest[COLORS_NUM]={
   0x27272e2e3333  // White
 };
 
-GrPaletteSet(gr_palette_everforest);
+GrPaletteSet(gr_palette_kanagawa);
 
 // NOTE: for whatever reason when you Abort&Exit (Shift+Esc)
 // a User Task (usually a terminal) the theme may reset to
 // gr_palette_std. I could not figure out why and how to fix that.
-MemCpy(gr_palette_std, gr_palette_everforest, sizeof(gr_palette_everforest));
+MemCpy(gr_palette_std, gr_palette_kanagawa, sizeof(gr_palette_kanagawa));
