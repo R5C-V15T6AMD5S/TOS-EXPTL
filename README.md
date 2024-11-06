@@ -60,6 +60,15 @@ $ ./sync.sh temple ./TOS.img
 $ ./sync.sh host ./TOS.img
 ```
 
+
+#### New Day
+
+To create a new day:
+
+```console
+$ ./new-day.sh ./TOS.img day-folder
+```
+
 ## Place to pay respects
 
 R.I.P. Terrence Andrew Davis, aka `King Terry`
