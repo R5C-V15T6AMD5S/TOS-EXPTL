@@ -1,26 +1,26 @@
-// Stolenc From https://github.com/sainnhe/everforest
-public CBGR48 gr_palette_everforest[COLORS_NUM]={
-  0xd3d3c6c6aaaa, // Black
-  0x7f7fbbbbb3b3, // Blue
-  0xa7a7c0c08080, // Green
-  0x8383c0c09292, // Cyan
-  0xe6e67e7e8080, // Red
-  0xd6d69999b6b6, // Purple
-  0xe6e698987575, // Brown
-  0x7a7a84847878, // Ltgray  
-  0x7a7a84847878, // Dkgray
-  0xa0a0cdcdc7c7, // Ltblue
-  0xbfbfd1d1a2a2, // Ltgreen
-  0xb0b0d7d7baba, // Ltcyan
-  0xeeeea9a9aaaa, // Ltred
-  0xe5e5bdbdd0d0, // Ltpurple
-  0xdbdbbcbc7f7f, // Yellow
-  0x27272e2e3333  // White
+// Stolenc From https://www.nordtheme.com/docs/colors-and-palettes
+public CBGR48 gr_palette_nord[COLORS_NUM]={
+  0x3e3e34344040, // Black.
+  0x5e5e8181acac, // Blue.
+  0xa3a3bebe8c8c, // Green.
+  0x8888c0c0d0d0, // Cyan.
+  0xbfbf61616a6a, // Red.
+  0xb4b48e8eadad, // Purple.
+  0xd0d087877070, // Brown.
+  0x91919c9cb3b3, // Ltgray.  
+  0x7f7f8a8aa0a0, // Dkgray.
+  0x8181a1a1c1c1, // Ltblue.
+  0x8f8fbcbcbbbb, // Ltgreen.
+  0xb4b4eeeefefe, // Ltcyan.
+  0xcdcd6d6d7676, // Ltred.
+  0xc7c7a0a0c0c0, // Ltpurple.
+  0xebebcbcb8b8b, // Yellow.
+  0xe5e5e9e9f0f0  // White.
 };
 
-GrPaletteSet(gr_palette_everforest);
+GrPaletteSet(gr_palette_nord);
 
 // NOTE: for whatever reason when you Abort&Exit (Shift+Esc)
 // a User Task (usually a terminal) the theme may reset to
 // gr_palette_std. I could not figure out why and how to fix that.
-MemCpy(gr_palette_std, gr_palette_everforest, sizeof(gr_palette_everforest));
+MemCpy(gr_palette_std, gr_palette_nord, sizeof(gr_palette_nord));
