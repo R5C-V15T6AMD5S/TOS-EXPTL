@@ -1,6 +1,6 @@
 # [TempleOS](http://templeos.org/) - Place for learning Holy C
 
-![rice_colorscheme](./Screenshots/rice_kanagawa.png)
+![rice_colorscheme](./Screenshots/rice_nord.png)
 
 *For how to get the same color theme see [./Home/Theme.HC](./Home/Theme.HC)*
 
