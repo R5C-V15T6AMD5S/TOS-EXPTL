@@ -15,7 +15,7 @@ You can find his playlist describing the journey of coding in TempleOS [here](ht
 
 - [QEMU](https://www.qemu.org/)
 - [rsync](https://rsync.samba.org/)
-- [TepleOS.iso](https://templeos.org/)
+- [TempleOS.ISO](https://templeos.org/Downloads/)
 
 ### Configuration
 
