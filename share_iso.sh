@@ -1,8 +1,9 @@
 #!/bin/sh
 
 if [ ! -d "shr" ]; then
-    echo "ERROR: the shared folder (shr) doesn't exist"
-    exit 1
+    echo "ERROR: the shared folder (shr) doesn't exist!"
+    echo -e "Creating the shared folder...\n"
+    mkdir shr
 fi
 
 set -xe
