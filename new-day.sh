@@ -12,9 +12,9 @@ set -xe
 
 ./mount.sh "$1"
 
-cd "$QEMU_IMG_MOUNT_DIR/Home/AOC-2024/"
+cd "$QEMU_IMG_MOUNT_DIR/Home/AOC-2025/"
 mkdir -p "$2"
 cp "./Template.HC" "$2/Main.HC"
-ed "$2/sample.TXT"
-ed "$2/input.TXT"
+vim "$2/sample.TXT"
+vim "$2/input.TXT"
 

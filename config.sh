@@ -8,6 +8,7 @@ else
     QEMU_IMG=$QEMU_HOME/bin/qemu-img
 fi
 
+#QEMU_FLAGS="-display gtk,zoom-to-fit=on -enable-kvm -m 4096"
 QEMU_FLAGS="-display gtk,zoom-to-fit=on -enable-kvm -m 4096 -audiodev pa,id=audio0 -machine pcspk-audiodev=audio0"
 QEMU_IMG_SIZE="512M"
 QEMU_IMG_MOUNT_DIR="./mnt/"
