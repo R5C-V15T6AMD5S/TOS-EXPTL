@@ -25,7 +25,7 @@ Bool IsDigit(U8 x) {
 }
 
 Bool IsAlnum(U8 x) {
-  return IsAlpha(x) || IsDigit(x);
+  return IsAlpha(x) || IsDigit(x);
 }
 
 Bool IsSpace(U8 x) {
@@ -43,7 +43,7 @@ U0 SVTrimLeft(SV *sv) {
   sv->size  -= i;
 }
 
-U0 SVChopWord(SV *input, SV *word) {
+U0 SVChopWord(SV *input, SV *word) {
   I64 i = 0;
   while (i < input->size && IsAlnum(input->begin[i])) i++;
   word->begin = input->begin;

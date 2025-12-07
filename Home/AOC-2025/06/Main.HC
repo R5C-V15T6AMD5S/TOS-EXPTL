@@ -146,7 +146,7 @@ U0 Part2() {
     } else if(has_any_digit) {
       if(curr_prob_digits == 0) {
         for(row = 0; row < h; row++) {
-          problems[prob_count][row] = 0;
+          problems[prob_count][row] = 0;
         }
       }
       
@@ -169,7 +169,7 @@ U0 Part2() {
   
   Free(saved_begin);
 
-  "Part 2: %d\n", grand_total;
+  "Part 2: %d (WRONG)\n", grand_total;
 }
 
 Part1;
