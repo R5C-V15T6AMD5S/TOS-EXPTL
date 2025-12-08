@@ -11,8 +11,8 @@ Cd(__DIR__);
 #define INCAP1024*10
 #endif
 
-U8 **manifold = MAlloc(sizeof(U8)*INCAP *INCAP);
-I64 **memo = MAlloc(sizeof(I64)*INCAP *INCAP);
+U8 *manifold = MAlloc(sizeof(U8)*INCAP *INCAP);
+I64 *memo = MAlloc(sizeof(I64)*INCAP *INCAP);
 
 U0 PrintManifold(I64 h, I64 w) {
   I64 i, j;
@@ -31,7 +31,7 @@ I64 NumberOfSplits(I64 h, I64 w) {
     for(j = 0; j < w; j++){
       if(manifold[i*INCAP +j] == 'S'|| 
         (i>0 && manifold[(i-1)*INCAP +j] == '|' &&manifold[i*INCAP +j] == '.')) { 
-        manifold[(i+1)*INCAP +j] = '|';
+        manifold[(i+1)*INCAP +j] = '|';
       }
 
       if(i > 0&& manifold[(i-1)*INCAP +j] == '|' && manifold[i*INCAP + j] == '^') { 
@@ -112,7 +112,7 @@ I64 NumberOfAlternatedTimelines(I64 h, I64 w) {
       if(start_i != -1) break;
     }
     
-    I64 alt_timelines = CountTimelines(start_i+1, start_j, h, w);
+    I64 alt_timelines = CountTimelines(start_i+1, start_j, h, w);
 
     Free(memo);
     
@@ -143,6 +143,8 @@ U0 Part2() {
     //PrintManifold(h, w);
 
     "Part 2:%d\n", NumberOfAlternatedTimelines(h, w);
+
+    Free(manifold);
 }
 
 
