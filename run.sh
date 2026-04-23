@@ -17,6 +17,8 @@ sudo umount $QEMU_IMG_MOUNT_DIR || true
 SUPPLEMENTAL1_PATH="/home/o5-15/VirtualBox/TOS-EXPTL/shr/TOS_Supplemental1.ISO.C"  # Utilities & Games
 SUPPLEMENTAL2_PATH="/home/o5-15/VirtualBox/TOS-EXPTL/shr/TOS_Supplemental2.ISO.C"  # Generated Songs Pt. 1
 SUPPLEMENTAL3_PATH="/home/o5-15/VirtualBox/TOS-EXPTL/shr/TOS_Supplemental3.ISO.C"  # Generated Songs Pt. 2
+TOOM_PATH="/home/o5-15/VirtualBox/TOS-EXPTL/shr/TOOM.ISO.C"  # Doom clone
+
 
 $QEMU_SYSTEM_X86_64 $QEMU_FLAGS \
     -drive file="$1",format=raw \
