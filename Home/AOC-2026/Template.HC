@@ -1,7 +1,7 @@
 
 
 Cd(__DIR__);
-#include "~/AOC-2025/Common.HC"
+#include "~/AOC-2026/Common.HC"
 
 #if 1
 #define INPUT_FILE "sample.TXT"

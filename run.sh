@@ -23,4 +23,4 @@ TOOM_PATH="/home/o5-15/VirtualBox/TOS-EXPTL/shr/TOOM.ISO.C"  # Doom clone
 $QEMU_SYSTEM_X86_64 $QEMU_FLAGS \
     -drive file="$1",format=raw \
     -cdrom "$TEMPLEOS_ISO" \
-    -drive file="$SUPPLEMENTAL1_PATH",media=cdrom 
+    -drive file="$TOOM_PATH",media=cdrom 

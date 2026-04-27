@@ -1,26 +1,26 @@
-// Stolenc From https://www.nordtheme.com/docs/colors-and-palettes
-public CBGR48 gr_palette_nord[COLORS_NUM]={
-  0x3e3e34344040, // Black.
-  0x5e5e8181acac, // Blue.
-  0xa3a3bebe8c8c, // Green.
-  0x8888c0c0d0d0, // Cyan.
-  0xbfbf61616a6a, // Red.
-  0xb4b48e8eadad, // Purple.
-  0xd0d087877070, // Brown.
-  0x91919c9cb3b3, // Ltgray.  
-  0x7f7f8a8aa0a0, // Dkgray.
-  0x8181a1a1c1c1, // Ltblue.
-  0x8f8fbcbcbbbb, // Ltgreen.
-  0xb4b4eeeefefe, // Ltcyan.
-  0xcdcd6d6d7676, // Ltred.
-  0xc7c7a0a0c0c0, // Ltpurple.
-  0xebebcbcb8b8b, // Yellow.
-  0xe5e5e9e9f0f0  // White.
+// Stolen from https://draculatheme.com/contribute
+public CBGR48 gr_palette_dracula[COLORS_NUM]={
+  0x1e1e20202c2c, // BLACK+
+  0x62627272a4a4, // BLUE+
+  0x5050fafa7b7b, // GREEN+
+  0x8b8be9e9fdfd, // CYAN+
+  0xffff55555555, // RED+
+  0xbdbd9393f9f9, // PURPLE+
+  0xffffb8b86c6c, // BROWN+
+  0x545457576b6b, // LTGRAY+
+  0x444447475a5a, // DKGRAY+
+  0x73738484b7b7, // LTBLUE+
+  0x9494ffff4646, // LTGREEN+
+  0xccccf6f6ffff, // LTCYAN+
+  0xffff80807a7a, // LTRED+
+  0xcfcfb0b0ffff, // LTPURPLE+
+  0xf1f1fafa8c8c, // YELLOW+
+  0xf8f8f8f8f2f2  // WHITE+
 };
 
-GrPaletteSet(gr_palette_nord);
+GrPaletteSet(gr_palette_dracula);
 
 // NOTE: for whatever reason when you Abort&Exit (Shift+Esc)
 // a User Task (usually a terminal) the theme may reset to
 // gr_palette_std. I could not figure out why and how to fix that.
-MemCpy(gr_palette_std, gr_palette_nord, sizeof(gr_palette_nord));
+MemCpy(gr_palette_std, gr_palette_dracula, sizeof(gr_palette_dracula));

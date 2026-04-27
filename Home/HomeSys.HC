@@ -9,7 +9,7 @@ U0 Split() { WinTileVert; }
 
 U0 NewDay(U8 *dir) {
   DirMk(dir);
-  Copy("~/AOC-2025/Template.HC", dir);
+  Copy("~/AOC-2026/Template.HC", dir);
   Cd(dir);
   Move("Template.HC", "Main.HC");
   Ed("Main.HC");
@@ -38,7 +38,7 @@ U0 StartUpTasks() {
   user1=User;
   WinMax(user1);
   "Boot Time:%7.3fs\n",tS;
-  XTalk(user1,"Cd(\"AOC-2025\");\n");
+  XTalk(user1,"Cd(\"AOC-2026\");\n");
   Silent;	//no output to scrn
   ACInit("/*;!*/Bible.TXT*");
   Silent(OFF); //no output to scrn
